@@ -5,7 +5,6 @@
 .populares__conteudo {
     display: flex;
     flex-wrap: wrap;
-    grid-area: conteudo;
     padding: 1rem 0;
 } 
 
@@ -29,12 +28,13 @@
 }
 
 .populares__card___corpo {
-    grid-area: card-corpo;
+    display: grid;
+    grid-row-gap: .5rem;
     grid-template-areas: 
         "card-cabecalho"
         "card-conteudo";
     grid-template-rows: 50px auto;
-    height: .75rem;
+    padding: .75rem;
 }
 
 .populares__card___titulo {
@@ -47,7 +47,7 @@
     color: #808080;
 }
 
-.populares__card___descricão {
+.populares__card___descricao{
     color: #333333;
     text-align: justify;
     line-height: 1.5;

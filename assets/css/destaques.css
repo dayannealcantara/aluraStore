@@ -1,6 +1,5 @@
 .caixa {
     align-items: flex-end;
-    background: #dcdcdc;
     display: flex;
     justify-content: center;
 }
@@ -22,7 +21,6 @@
 }
 
 .destaques__principal {
-
     background: url('../img/fortnite.jpg') center / cover  no-repeat;
     grid-column: 1 / 4;
     grid-row: 1 / 3;
